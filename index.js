@@ -3,7 +3,7 @@ const express = require('axios');
 
 var fun2 = require('./fun2');
 const app = express();
-fun2.add(1, 4);
+fun2.add(1, 3);
 
 app.get('/', (req, res) => {
   res.send('Hello Express app!')
