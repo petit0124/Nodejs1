@@ -1,6 +1,6 @@
 module.exports = {
   reduce: function(a, b) {
-    console.log("我是fun2的reduce方法");
+    console.log("我是fun2的reduce方法ffff");
     console.log(a - b);
   },
   add: function(a, b) {
