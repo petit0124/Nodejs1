@@ -3,7 +3,7 @@ const express = require('axios');
 
 var fun2 = require('./fun2');
 const app = express();
-fun2.add(1, 3);
+fun2.add(1, 4);
 
 app.get('/', (req, res) => {
   res.send('Hello Express app!')
@@ -12,3 +12,4 @@ app.get('/', (req, res) => {
 app.listen(3000, () => {
   console.log('server started');
 });
+
